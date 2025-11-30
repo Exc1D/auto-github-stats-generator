@@ -91,7 +91,7 @@
     <rect class="card" width="140" height="60" rx="8"/>
     <text class="badge-icon" x="20" y="28">📦</text>
     <text class="stat-label" x="20" y="48">Repositories</text>
-    <text class="stat-value" x="115" y="33" text-anchor="end">20</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">19</text>
   </g>
   <g transform="translate(180, 100)" class="animated">
     <rect class="card" width="140" height="60" rx="8"/>
@@ -103,7 +103,7 @@
     <rect class="card" width="140" height="60" rx="8"/>
     <text class="badge-icon" x="20" y="28">💻</text>
     <text class="stat-label" x="20" y="48">Commits</text>
-    <text class="stat-value" x="115" y="33" text-anchor="end">134</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">166</text>
   </g>
     
   <g transform="translate(20, 200)">
@@ -129,11 +129,17 @@
             class="animated">
         <title>HTML: 31.6%</title>
       </path>
-      <path d="M 70.96743570776188 286.78759900994476 A 80 80 0 0 1 119.99999999999999 270 L 119.99999999999999 302 A 48 48 0 0 0 90.58046142465713 312.07255940596684 Z"
+      <path d="M 70.96743570776188 286.78759900994476 A 80 80 0 0 1 94.32451121542321 274.23213560042046 L 104.59470672925393 304.5392813602523 A 48 48 0 0 0 90.58046142465713 312.07255940596684 Z"
+            fill="#3572A5"
+            opacity="0.9"
+            class="animated">
+        <title>Python: 5.3%</title>
+      </path>
+      <path d="M 94.32451121542321 274.23213560042046 A 80 80 0 0 1 120.50265151724467 270.00157913150906 L 120.3015909103468 302.0009474789054 A 48 48 0 0 0 104.59470672925393 304.5392813602523 Z"
             fill="#f1e05a"
             opacity="0.9"
             class="animated">
-        <title>JavaScript: 10.5%</title>
+        <title>JavaScript: 5.3%</title>
       </path>
     
     <g transform="translate(0, 0)">
@@ -149,9 +155,15 @@
     </g>
   
     <g transform="translate(0, 50)">
-      <circle cx="240" cy="340" r="6" fill="#f1e05a"/>
-      <text x="255" y="345" class="stat-label">JavaScript</text>
-      <text x="380" y="345" class="stat-value" text-anchor="end">10.5%</text>
+      <circle cx="240" cy="340" r="6" fill="#3572A5"/>
+      <text x="255" y="345" class="stat-label">Python</text>
+      <text x="380" y="345" class="stat-value" text-anchor="end">5.3%</text>
+    </g>
+  
+    <g transform="translate(0, 75)">
+      <circle cx="240" cy="365" r="6" fill="#f1e05a"/>
+      <text x="255" y="370" class="stat-label">JavaScript</text>
+      <text x="380" y="370" class="stat-value" text-anchor="end">5.3%</text>
     </g>
   
   </g>
@@ -230,9 +242,9 @@
         <title>2025-11-07: 0 contributions</title>
       </rect>
       <rect x="584" 
-            y="315" 
+            y="317.36842105263156" 
             width="10" 
-            height="15" 
+            height="12.631578947368421" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -290,9 +302,9 @@
         <title>2025-11-13: 0 contributions</title>
       </rect>
       <rect x="656" 
-            y="312.5" 
+            y="315.2631578947368" 
             width="10" 
-            height="17.5" 
+            height="14.736842105263158" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -340,9 +352,9 @@
         <title>2025-11-18: 0 contributions</title>
       </rect>
       <rect x="716" 
-            y="327.5" 
+            y="327.89473684210526" 
             width="10" 
-            height="2.5" 
+            height="2.1052631578947367" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -370,9 +382,9 @@
         <title>2025-11-21: 0 contributions</title>
       </rect>
       <rect x="752" 
-            y="280" 
+            y="287.89473684210526" 
             width="10" 
-            height="50" 
+            height="42.10526315789473" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -380,9 +392,9 @@
         <title>2025-11-22: 20 contributions</title>
       </rect>
       <rect x="764" 
-            y="285" 
+            y="292.10526315789474" 
             width="10" 
-            height="45" 
+            height="37.89473684210526" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -390,9 +402,9 @@
         <title>2025-11-23: 18 contributions</title>
       </rect>
       <rect x="776" 
-            y="312.5" 
+            y="315.2631578947368" 
             width="10" 
-            height="17.5" 
+            height="14.736842105263158" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -400,9 +412,9 @@
         <title>2025-11-24: 7 contributions</title>
       </rect>
       <rect x="788" 
-            y="325" 
+            y="325.7894736842105" 
             width="10" 
-            height="5" 
+            height="4.2105263157894735" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -410,9 +422,9 @@
         <title>2025-11-25: 2 contributions</title>
       </rect>
       <rect x="800" 
-            y="310" 
+            y="313.1578947368421" 
             width="10" 
-            height="20" 
+            height="16.842105263157894" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -420,9 +432,9 @@
         <title>2025-11-26: 8 contributions</title>
       </rect>
       <rect x="812" 
-            y="292.5" 
+            y="298.42105263157896" 
             width="10" 
-            height="37.5" 
+            height="31.578947368421055" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -430,9 +442,9 @@
         <title>2025-11-27: 15 contributions</title>
       </rect>
       <rect x="824" 
-            y="302.5" 
+            y="306.8421052631579" 
             width="10" 
-            height="27.5" 
+            height="23.157894736842106" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -440,9 +452,9 @@
         <title>2025-11-28: 11 contributions</title>
       </rect>
       <rect x="836" 
-            y="250" 
+            y="262.63157894736844" 
             width="10" 
-            height="80" 
+            height="67.36842105263158" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
@@ -450,14 +462,14 @@
         <title>2025-11-29: 32 contributions</title>
       </rect>
       <rect x="848" 
-            y="315" 
+            y="250" 
             width="10" 
-            height="15" 
+            height="80" 
             fill="var(--accent)" 
             opacity="0.8"
             rx="2"
             class="animated">
-        <title>2025-11-30: 6 contributions</title>
+        <title>2025-11-30: 38 contributions</title>
       </rect>
   </g>
     
