@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #ffffff;
+        --fg: #1f2937;
+        --card: #f9fafb;
+        --border: #e5e7eb;
+        --text: #374151;
+        --text-secondary: #6b7280;
+        --primary: #3b82f6;
+        --accent: #10b981;
+        --shadow: rgba(0, 0, 0, 0.1);
+      }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --fg: #e6edf3;
+        --card: #161b22;
+        --border: #30363d;
+        --text: #c9d1d9;
+        --text-secondary: #8b949e;
+        --primary: #58a6ff;
+        --accent: #3fb950;
+        --shadow: rgba(0, 0, 0, 0.4);
+      }
+    }
+    * {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .card {
+      fill: var(--card);
+      stroke: var(--border);
+      stroke-width: 1;
+      filter: drop-shadow(0 4px 6px var(--shadow));
+    }
+    .title {
+      fill: var(--text);
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .stat-label {
+      fill: var(--text-secondary);
+      font-size: 12px;
+    }
+    .stat-value {
+      fill: var(--text);
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .badge-text {
+      fill: var(--text);
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .badge-icon {
+      fill: var(--primary);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .animated {
+      animation: fadeIn 0.8s ease-in;
+    }
+  </style>
+  <rect width="900" height="600" fill="var(--bg)" rx="10"/>
+  
+    
+  <g transform="translate(20, 20)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">👥</text>
+    <text class="stat-label" x="20" y="48">Followers</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">0</text>
+  </g>
+  <g transform="translate(180, 20)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">⭐</text>
+    <text class="stat-label" x="20" y="48">Total Stars</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">3</text>
+  </g>
+  <g transform="translate(340, 20)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">🔀</text>
+    <text class="stat-label" x="20" y="48">Total Forks</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">0</text>
+  </g>
+  <g transform="translate(20, 100)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">📦</text>
+    <text class="stat-label" x="20" y="48">Repositories</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">20</text>
+  </g>
+  <g transform="translate(180, 100)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">🔥</text>
+    <text class="stat-label" x="20" y="48">Streak</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">2 days</text>
+  </g>
+  <g transform="translate(340, 100)" class="animated">
+    <rect class="card" width="140" height="60" rx="8"/>
+    <text class="badge-icon" x="20" y="28">💻</text>
+    <text class="stat-label" x="20" y="48">Commits</text>
+    <text class="stat-value" x="115" y="33" text-anchor="end">134</text>
+  </g>
+    
+  <g transform="translate(20, 200)">
+    <text class="title" x="0" y="0">🎯 Exc1D's GitHub Stats</text>
+    <text class="stat-label" x="0" y="25">Last updated: 11/30/2025</text>
+  </g>
+    
+  <g transform="translate(20, 240)">
+    <text class="title" x="0" y="0">💻 Top Languages</text>
+  </g>
+    
+  <g class="animated">
+    
+      <path d="M 120 270 A 80 80 0 1 1 81.90094370656486 420.3453048152445 L 97.14056622393892 392.2071828891467 A 48 48 0 1 0 120 302 Z"
+            fill="#563d7c"
+            opacity="0.9"
+            class="animated">
+        <title>CSS: 57.9%</title>
+      </path>
+      <path d="M 81.90094370656486 420.3453048152445 A 80 80 0 0 1 70.96743570776188 286.78759900994476 L 90.58046142465713 312.07255940596684 A 48 48 0 0 0 97.14056622393892 392.2071828891467 Z"
+            fill="#e34c26"
+            opacity="0.9"
+            class="animated">
+        <title>HTML: 31.6%</title>
+      </path>
+      <path d="M 70.96743570776188 286.78759900994476 A 80 80 0 0 1 119.99999999999999 270 L 119.99999999999999 302 A 48 48 0 0 0 90.58046142465713 312.07255940596684 Z"
+            fill="#f1e05a"
+            opacity="0.9"
+            class="animated">
+        <title>JavaScript: 10.5%</title>
+      </path>
+    
+    <g transform="translate(0, 0)">
+      <circle cx="240" cy="290" r="6" fill="#563d7c"/>
+      <text x="255" y="295" class="stat-label">CSS</text>
+      <text x="380" y="295" class="stat-value" text-anchor="end">57.9%</text>
+    </g>
+  
+    <g transform="translate(0, 25)">
+      <circle cx="240" cy="315" r="6" fill="#e34c26"/>
+      <text x="255" y="320" class="stat-label">HTML</text>
+      <text x="380" y="320" class="stat-value" text-anchor="end">31.6%</text>
+    </g>
+  
+    <g transform="translate(0, 50)">
+      <circle cx="240" cy="340" r="6" fill="#f1e05a"/>
+      <text x="255" y="345" class="stat-label">JavaScript</text>
+      <text x="380" y="345" class="stat-value" text-anchor="end">10.5%</text>
+    </g>
+  
+  </g>
+    
+  <g>
+    <text class="stat-label" x="500" y="220">Last 30 Days Activity</text>
+    
+      <rect x="500" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-01: 0 contributions</title>
+      </rect>
+      <rect x="512" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-02: 0 contributions</title>
+      </rect>
+      <rect x="524" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-03: 0 contributions</title>
+      </rect>
+      <rect x="536" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-04: 0 contributions</title>
+      </rect>
+      <rect x="548" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-05: 0 contributions</title>
+      </rect>
+      <rect x="560" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-06: 0 contributions</title>
+      </rect>
+      <rect x="572" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-07: 0 contributions</title>
+      </rect>
+      <rect x="584" 
+            y="315" 
+            width="10" 
+            height="15" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-08: 6 contributions</title>
+      </rect>
+      <rect x="596" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-09: 0 contributions</title>
+      </rect>
+      <rect x="608" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-10: 0 contributions</title>
+      </rect>
+      <rect x="620" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-11: 0 contributions</title>
+      </rect>
+      <rect x="632" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-12: 0 contributions</title>
+      </rect>
+      <rect x="644" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-13: 0 contributions</title>
+      </rect>
+      <rect x="656" 
+            y="312.5" 
+            width="10" 
+            height="17.5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-14: 7 contributions</title>
+      </rect>
+      <rect x="668" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-15: 0 contributions</title>
+      </rect>
+      <rect x="680" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-16: 0 contributions</title>
+      </rect>
+      <rect x="692" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-17: 0 contributions</title>
+      </rect>
+      <rect x="704" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-18: 0 contributions</title>
+      </rect>
+      <rect x="716" 
+            y="327.5" 
+            width="10" 
+            height="2.5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-19: 1 contributions</title>
+      </rect>
+      <rect x="728" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-20: 0 contributions</title>
+      </rect>
+      <rect x="740" 
+            y="330" 
+            width="10" 
+            height="0" 
+            fill="var(--accent)" 
+            opacity="0.2"
+            rx="2"
+            class="animated">
+        <title>2025-11-21: 0 contributions</title>
+      </rect>
+      <rect x="752" 
+            y="280" 
+            width="10" 
+            height="50" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-22: 20 contributions</title>
+      </rect>
+      <rect x="764" 
+            y="285" 
+            width="10" 
+            height="45" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-23: 18 contributions</title>
+      </rect>
+      <rect x="776" 
+            y="312.5" 
+            width="10" 
+            height="17.5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-24: 7 contributions</title>
+      </rect>
+      <rect x="788" 
+            y="325" 
+            width="10" 
+            height="5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-25: 2 contributions</title>
+      </rect>
+      <rect x="800" 
+            y="310" 
+            width="10" 
+            height="20" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-26: 8 contributions</title>
+      </rect>
+      <rect x="812" 
+            y="292.5" 
+            width="10" 
+            height="37.5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-27: 15 contributions</title>
+      </rect>
+      <rect x="824" 
+            y="302.5" 
+            width="10" 
+            height="27.5" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-28: 11 contributions</title>
+      </rect>
+      <rect x="836" 
+            y="250" 
+            width="10" 
+            height="80" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-29: 32 contributions</title>
+      </rect>
+      <rect x="848" 
+            y="315" 
+            width="10" 
+            height="15" 
+            fill="var(--accent)" 
+            opacity="0.8"
+            rx="2"
+            class="animated">
+        <title>2025-11-30: 6 contributions</title>
+      </rect>
+  </g>
+    
+  <g transform="translate(500, 350)" class="animated">
+    <rect class="card" width="380" height="220" rx="10"/>
+    <text class="title" x="20" y="35">📊 Additional Stats</text>
+    
+    <text class="stat-label" x="20" y="60">Issues Created</text>
+    <text class="stat-value" x="360" y="60" text-anchor="end">2</text>
+  
+    <text class="stat-label" x="20" y="95">Pull Requests</text>
+    <text class="stat-value" x="360" y="95" text-anchor="end">2</text>
+  
+    <text class="stat-label" x="20" y="130">Max Streak</text>
+    <text class="stat-value" x="360" y="130" text-anchor="end">9 days</text>
+  
+    <text class="stat-label" x="20" y="165">Following</text>
+    <text class="stat-value" x="360" y="165" text-anchor="end">0</text>
+  
+  </g>
+  
+</svg>
