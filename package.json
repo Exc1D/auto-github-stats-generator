@@ -1,0 +1,26 @@
+{
+  "name": "github-stats-generator",
+  "version": "1.0.0",
+  "description": "Dynamic GitHub stats card generator with SVG and PNG output",
+  "type": "module",
+  "main": "scripts/index.js",
+  "scripts": {
+    "generate": "node scripts/index.js",
+    "test": "node scripts/index.js"
+  },
+  "keywords": [
+    "github",
+    "stats",
+    "svg",
+    "badges",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
